@@ -1,14 +1,26 @@
 
 
  body {
-       font-size: 16px;
+    background-color: lightsalmon;
  }
 
  h1 {
-      font-family: sans-serif;
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 35px;
   }
 
   p {
+    font-family: cursive, sans-serif;
     font-weight: 600;
-    font-size: 3em;
+    font-size: 1.5em;
+    font-style: italic;
+  }
+
+  ul {
+    font-size: 25px;
   }
