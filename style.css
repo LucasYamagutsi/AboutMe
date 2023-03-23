@@ -16,11 +16,65 @@
 
   p {
     font-family: cursive, sans-serif;
-    font-weight: 600;
     font-size: 1.5em;
     font-style: italic;
   }
 
   ul {
     font-size: 25px;
+  }
+
+  strong {
+    font-style: italic;
+  }
+
+  .imagem_e_descricao img {
+    float: left;
+    height: 460px;
+    padding: 20px;
+    background-color: red;
+    margin-left: 10%;
+  }
+
+  .imagem_e_descricao p {
+    text-align: center;
+    margin-top: 2%;
+    padding-left: 40%;
+    padding-right: 20%;
+  }
+
+  .imagem_e_descricao h2 {
+    text-align: center;
+    padding-right: 14%;
+    padding-top: 5%;
+    margin-top: 9%;
+  }
+
+  .imagem_e_descricao {
+    height: 500px;
+  }
+
+  .ListaDeHabilidades h2, ul{
+    text-align: center;
+  }
+
+  a {
+    font-family: monospace;
+    font-size: 2em;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+  }
+
+  a:hover {
+    color: white;
+    background-color: black;
+    
+  }
+
+  .site_que_eu_gosto {
+    text-align: center;
+    padding-bottom: 2%;
   }
